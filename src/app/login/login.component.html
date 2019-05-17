@@ -1,0 +1,19 @@
+<mat-sidenav-container class="sidenav-container">
+  <mat-sidenav-content>
+    <mat-toolbar color="primary">
+      <span>Welcome to Ecommerce</span>
+    </mat-toolbar>
+  </mat-sidenav-content>
+</mat-sidenav-container>
+<form>
+  <div class="login-container" align="center"><br>
+    <p>Please enter your login credentials</p>
+    <mat-form-field>
+      <input name="username" matInput placeholder="Username" id="username">
+    </mat-form-field><br>
+    <mat-form-field>
+      <input type="password" name="password" matInput placeholder="Password" id="password">
+    </mat-form-field><br>
+    <button mat-raised-button color="primary" type="submit" (click)="loginUser()">Login</button>
+  </div>
+</form>
